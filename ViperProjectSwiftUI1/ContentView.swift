@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let router = BooksRouter()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Image(systemName: "swift")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("VIPER Architecture Pattern")
+                Text("(Sample)")
+                NavigationLink("Books", destination: router.listView())
+                    .padding()
+            }
         }
-        .padding()
     }
 }
 
