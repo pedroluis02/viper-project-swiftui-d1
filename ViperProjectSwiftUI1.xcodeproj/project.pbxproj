@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA214B732A44DED20013B8F3 /* SampleBookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA214B722A44DED20013B8F3 /* SampleBookRepository.swift */; };
+		AAA036F02A43A40D001284D2 /* BookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA036EF2A43A40D001284D2 /* BookRepository.swift */; };
+		AAA036F22A43E5B0001284D2 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA036F12A43E5B0001284D2 /* BookDetailView.swift */; };
+		AAA036F42A43E7E4001284D2 /* BooksRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA036F32A43E7E4001284D2 /* BooksRouter.swift */; };
+		AAA036F62A43F745001284D2 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA036F52A43F745001284D2 /* BookViewModel.swift */; };
 		AAD832082A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832072A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift */; };
 		AAD8320A2A42AF5700A08B48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832092A42AF5700A08B48 /* ContentView.swift */; };
 		AAD8320C2A42AF5800A08B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD8320B2A42AF5800A08B48 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 		AAD832192A42AF5800A08B48 /* ViperProjectSwiftUI1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832182A42AF5800A08B48 /* ViperProjectSwiftUI1Tests.swift */; };
 		AAD832232A42AF5900A08B48 /* ViperProjectSwiftUI1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832222A42AF5900A08B48 /* ViperProjectSwiftUI1UITests.swift */; };
 		AAD832252A42AF5900A08B48 /* ViperProjectSwiftUI1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832242A42AF5900A08B48 /* ViperProjectSwiftUI1UITestsLaunchTests.swift */; };
+		AAD832332A42B51600A08B48 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832322A42B51600A08B48 /* Book.swift */; };
+		AAD832352A42B5D700A08B48 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832342A42B5D700A08B48 /* Author.swift */; };
+		AAD832382A42B97900A08B48 /* BooksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832372A42B97900A08B48 /* BooksInteractor.swift */; };
+		AAD8323B2A42BC8F00A08B48 /* BooksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8323A2A42BC8F00A08B48 /* BooksPresenter.swift */; };
+		AAD832402A42C04B00A08B48 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8323F2A42C04B00A08B48 /* BooksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA214B722A44DED20013B8F3 /* SampleBookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBookRepository.swift; sourceTree = "<group>"; };
+		AAA036EF2A43A40D001284D2 /* BookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRepository.swift; sourceTree = "<group>"; };
+		AAA036F12A43E5B0001284D2 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		AAA036F32A43E7E4001284D2 /* BooksRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRouter.swift; sourceTree = "<group>"; };
+		AAA036F52A43F745001284D2 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
 		AAD832042A42AF5700A08B48 /* ViperProjectSwiftUI1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperProjectSwiftUI1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD832072A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperProjectSwiftUI1App.swift; sourceTree = "<group>"; };
 		AAD832092A42AF5700A08B48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,11 @@
 		AAD8321E2A42AF5900A08B48 /* ViperProjectSwiftUI1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperProjectSwiftUI1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD832222A42AF5900A08B48 /* ViperProjectSwiftUI1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperProjectSwiftUI1UITests.swift; sourceTree = "<group>"; };
 		AAD832242A42AF5900A08B48 /* ViperProjectSwiftUI1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperProjectSwiftUI1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAD832322A42B51600A08B48 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		AAD832342A42B5D700A08B48 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		AAD832372A42B97900A08B48 /* BooksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksInteractor.swift; sourceTree = "<group>"; };
+		AAD8323A2A42BC8F00A08B48 /* BooksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksPresenter.swift; sourceTree = "<group>"; };
+		AAD8323F2A42C04B00A08B48 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAA036EC2A439488001284D2 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				AAA036ED2A4394C9001284D2 /* BookList */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		AAA036ED2A4394C9001284D2 /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8323F2A42C04B00A08B48 /* BooksView.swift */,
+				AAD8323A2A42BC8F00A08B48 /* BooksPresenter.swift */,
+				AAD832372A42B97900A08B48 /* BooksInteractor.swift */,
+				AAA036F12A43E5B0001284D2 /* BookDetailView.swift */,
+				AAA036F32A43E7E4001284D2 /* BooksRouter.swift */,
+				AAA036F52A43F745001284D2 /* BookViewModel.swift */,
+			);
+			path = BookList;
+			sourceTree = "<group>";
+		};
+		AAA036EE2A43A3D0001284D2 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				AAA036EF2A43A40D001284D2 /* BookRepository.swift */,
+				AA214B722A44DED20013B8F3 /* SampleBookRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		AAD831FB2A42AF5700A08B48 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +144,9 @@
 		AAD832062A42AF5700A08B48 /* ViperProjectSwiftUI1 */ = {
 			isa = PBXGroup;
 			children = (
+				AAA036EC2A439488001284D2 /* Feature */,
+				AAA036EE2A43A3D0001284D2 /* Repository */,
+				AAD832312A42B45100A08B48 /* Entity */,
 				AAD832072A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift */,
 				AAD832092A42AF5700A08B48 /* ContentView.swift */,
 				AAD8320B2A42AF5800A08B48 /* Assets.xcassets */,
@@ -125,6 +178,15 @@
 				AAD832242A42AF5900A08B48 /* ViperProjectSwiftUI1UITestsLaunchTests.swift */,
 			);
 			path = ViperProjectSwiftUI1UITests;
+			sourceTree = "<group>";
+		};
+		AAD832312A42B45100A08B48 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AAD832322A42B51600A08B48 /* Book.swift */,
+				AAD832342A42B5D700A08B48 /* Author.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD832382A42B97900A08B48 /* BooksInteractor.swift in Sources */,
 				AAD8320A2A42AF5700A08B48 /* ContentView.swift in Sources */,
+				AAA036F02A43A40D001284D2 /* BookRepository.swift in Sources */,
+				AAA036F42A43E7E4001284D2 /* BooksRouter.swift in Sources */,
 				AAD832082A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift in Sources */,
+				AAA036F62A43F745001284D2 /* BookViewModel.swift in Sources */,
+				AA214B732A44DED20013B8F3 /* SampleBookRepository.swift in Sources */,
+				AAA036F22A43E5B0001284D2 /* BookDetailView.swift in Sources */,
+				AAD832402A42C04B00A08B48 /* BooksView.swift in Sources */,
+				AAD832352A42B5D700A08B48 /* Author.swift in Sources */,
+				AAD832332A42B51600A08B48 /* Book.swift in Sources */,
+				AAD8323B2A42BC8F00A08B48 /* BooksPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
