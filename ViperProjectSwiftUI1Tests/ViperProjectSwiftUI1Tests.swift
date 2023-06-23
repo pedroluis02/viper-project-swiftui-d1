@@ -9,27 +9,37 @@ import XCTest
 @testable import ViperProjectSwiftUI1
 
 final class ViperProjectSwiftUI1Tests: XCTestCase {
-
+    private var repository: BookRepository!
+    private var interactor: BooksInterector!
+    private var presenter: BooksPresenter!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        repository = SampleBookRepository()
+        interactor = BooksInterector(repository: repository)
+        presenter = BooksPresenter(interactor: interactor)
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testInteractor() throws {
+        XCTAssertFalse(interactor.books.isEmpty)
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
+    func testMapEntityToViewModel() {
+        presenter.books.enumerated().forEach { index, item in
+            let countAuthors = interactor.books[index].authors.count
+            if (countAuthors > 1) {
+                let countSeperator = item.authors.filter({$0 == ","}).count
+                XCTAssertEqual(countSeperator, countAuthors - 1)
+            }
+        }
+    }
+
+    func testLoadingPerformance() throws {
         self.measure {
-            // Put the code you want to measure the time of here.
+            let list = repository.getAll()
+            print(list)
         }
     }
 
