@@ -10,6 +10,7 @@
 		AA1B1B3E2A4BB8FC00C35834 /* AuthorRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B1B3D2A4BB8FC00C35834 /* AuthorRepository.swift */; };
 		AA1B1B402A4BB9A100C35834 /* StorageAuthorRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B1B3F2A4BB9A100C35834 /* StorageAuthorRespository.swift */; };
 		AA1B1B432A4BBCDE00C35834 /* AuthorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B1B422A4BBCDE00C35834 /* AuthorsView.swift */; };
+		AA1B1B452A4BE89300C35834 /* AuthorRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B1B442A4BE89300C35834 /* AuthorRepositoryTests.swift */; };
 		AA214B732A44DED20013B8F3 /* SampleBookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA214B722A44DED20013B8F3 /* SampleBookRepository.swift */; };
 		AA67E5B92A4A28CB000BAF1D /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67E5B82A4A28CB000BAF1D /* LocalStorageManager.swift */; };
 		AA67E5BE2A4A4138000BAF1D /* BookMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67E5BD2A4A4138000BAF1D /* BookMapper.swift */; };
@@ -55,6 +56,7 @@
 		AA1B1B3D2A4BB8FC00C35834 /* AuthorRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorRepository.swift; sourceTree = "<group>"; };
 		AA1B1B3F2A4BB9A100C35834 /* StorageAuthorRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAuthorRespository.swift; sourceTree = "<group>"; };
 		AA1B1B422A4BBCDE00C35834 /* AuthorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsView.swift; sourceTree = "<group>"; };
+		AA1B1B442A4BE89300C35834 /* AuthorRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorRepositoryTests.swift; sourceTree = "<group>"; };
 		AA214B722A44DED20013B8F3 /* SampleBookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBookRepository.swift; sourceTree = "<group>"; };
 		AA67E5B82A4A28CB000BAF1D /* LocalStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
 		AA67E5BD2A4A4138000BAF1D /* BookMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMapper.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				AAD832182A42AF5800A08B48 /* ViperProjectSwiftUI1Tests.swift */,
+				AA1B1B442A4BE89300C35834 /* AuthorRepositoryTests.swift */,
 			);
 			path = ViperProjectSwiftUI1Tests;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1B1B452A4BE89300C35834 /* AuthorRepositoryTests.swift in Sources */,
 				AAD832192A42AF5800A08B48 /* ViperProjectSwiftUI1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
