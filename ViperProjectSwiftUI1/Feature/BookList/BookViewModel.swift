@@ -6,7 +6,7 @@
 //
 
 struct BookViewModel {
-    let id: Int
+    let id: Int64
     let title: String
     let authors: String
     let description: String
