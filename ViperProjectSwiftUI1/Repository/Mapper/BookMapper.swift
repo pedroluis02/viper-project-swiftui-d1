@@ -16,7 +16,7 @@ extension Book {
         b.title = title
         b.desc = description
         
-        let authorsSet = Set<AuthorEntity>(authors.map { $0.toStorageEntity(context) })
+        let authorsSet = Set<AuthorEntity>(authors.map { $0.createStorageEntity(context) })
         authorsSet.forEach { b.addToAuthors($0) }
         
         return b

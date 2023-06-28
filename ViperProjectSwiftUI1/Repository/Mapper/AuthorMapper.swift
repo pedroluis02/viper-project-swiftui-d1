@@ -9,7 +9,7 @@ import Foundation
 import CoreData
 
 extension Author {
-    func toStorageEntity(_ context: NSManagedObjectContext) -> AuthorEntity {
+    func createStorageEntity(_ context: NSManagedObjectContext) -> AuthorEntity {
         let a = AuthorEntity(context: context)
         a.uid = UUID()
         a.id = id
