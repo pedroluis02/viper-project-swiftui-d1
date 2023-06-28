@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct ViperProjectSwiftUI1App: App {
+    private let viewContext = LocalStorageManager.viewContext
+    
     init() {
         LocalStorageManager.fillSampleDataOnce()
     }
@@ -16,6 +18,7 @@ struct ViperProjectSwiftUI1App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, viewContext)
         }
     }
 }
