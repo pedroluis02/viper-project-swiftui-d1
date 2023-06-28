@@ -9,4 +9,6 @@ import Foundation
 
 protocol BookRepository {
     func getAll() -> [Book]
+    func save(_ books: [Book])
+    func save(_ book: Book)
 }
