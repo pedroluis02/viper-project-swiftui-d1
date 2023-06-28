@@ -23,6 +23,20 @@ class LocalStorageManager {
         }
     }
     
+    static func fillSampleDataOnce() {
+        let localRepo: BookRepository = StorageBookRepository()
+        let list = localRepo.getAll()
+        if (list.isEmpty) {
+            print("fill local storage once")
+            let sampleRepo: BookRepository = SampleBookRepository()
+            let newList = sampleRepo.getAll()
+            localRepo.save(newList)
+        }
+        
+        let lastList = localRepo.getAll()
+        print("local storage: countBook=\(lastList.count)")
+    }
+    
     static var viewContext: NSManagedObjectContext {
         get {
             return self.shared.persistenceStoreContainer.viewContext

@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct ViperProjectSwiftUI1App: App {
+    init() {
+        LocalStorageManager.fillSampleDataOnce()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
