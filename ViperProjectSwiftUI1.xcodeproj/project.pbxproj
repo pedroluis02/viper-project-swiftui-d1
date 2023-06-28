@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1B1B3E2A4BB8FC00C35834 /* AuthorRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B1B3D2A4BB8FC00C35834 /* AuthorRepository.swift */; };
+		AA1B1B402A4BB9A100C35834 /* StorageAuthorRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B1B3F2A4BB9A100C35834 /* StorageAuthorRespository.swift */; };
+		AA1B1B432A4BBCDE00C35834 /* AuthorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B1B422A4BBCDE00C35834 /* AuthorsView.swift */; };
 		AA214B732A44DED20013B8F3 /* SampleBookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA214B722A44DED20013B8F3 /* SampleBookRepository.swift */; };
+		AA67E5B92A4A28CB000BAF1D /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67E5B82A4A28CB000BAF1D /* LocalStorageManager.swift */; };
+		AA67E5BE2A4A4138000BAF1D /* BookMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67E5BD2A4A4138000BAF1D /* BookMapper.swift */; };
+		AA67E5C02A4A4873000BAF1D /* AuthorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67E5BF2A4A4873000BAF1D /* AuthorMapper.swift */; };
+		AA67E5C22A4A99C3000BAF1D /* StorageBookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67E5C12A4A99C3000BAF1D /* StorageBookRepository.swift */; };
 		AAA036F02A43A40D001284D2 /* BookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA036EF2A43A40D001284D2 /* BookRepository.swift */; };
 		AAA036F22A43E5B0001284D2 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA036F12A43E5B0001284D2 /* BookDetailView.swift */; };
 		AAA036F42A43E7E4001284D2 /* BooksRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA036F32A43E7E4001284D2 /* BooksRouter.swift */; };
 		AAA036F62A43F745001284D2 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA036F52A43F745001284D2 /* BookViewModel.swift */; };
+		AABEEAC02A49BD0500447343 /* ViperProjectSwiftUI1Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AABEEABE2A49BD0500447343 /* ViperProjectSwiftUI1Model.xcdatamodeld */; };
 		AAD832082A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832072A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift */; };
 		AAD8320A2A42AF5700A08B48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD832092A42AF5700A08B48 /* ContentView.swift */; };
 		AAD8320C2A42AF5800A08B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD8320B2A42AF5800A08B48 /* Assets.xcassets */; };
@@ -44,11 +52,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA1B1B3D2A4BB8FC00C35834 /* AuthorRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorRepository.swift; sourceTree = "<group>"; };
+		AA1B1B3F2A4BB9A100C35834 /* StorageAuthorRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAuthorRespository.swift; sourceTree = "<group>"; };
+		AA1B1B422A4BBCDE00C35834 /* AuthorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsView.swift; sourceTree = "<group>"; };
 		AA214B722A44DED20013B8F3 /* SampleBookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBookRepository.swift; sourceTree = "<group>"; };
+		AA67E5B82A4A28CB000BAF1D /* LocalStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		AA67E5BD2A4A4138000BAF1D /* BookMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMapper.swift; sourceTree = "<group>"; };
+		AA67E5BF2A4A4873000BAF1D /* AuthorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorMapper.swift; sourceTree = "<group>"; };
+		AA67E5C12A4A99C3000BAF1D /* StorageBookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBookRepository.swift; sourceTree = "<group>"; };
 		AAA036EF2A43A40D001284D2 /* BookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRepository.swift; sourceTree = "<group>"; };
 		AAA036F12A43E5B0001284D2 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		AAA036F32A43E7E4001284D2 /* BooksRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRouter.swift; sourceTree = "<group>"; };
 		AAA036F52A43F745001284D2 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		AABEEABF2A49BD0500447343 /* ViperProjectSwiftUI1Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViperProjectSwiftUI1Model.xcdatamodel; sourceTree = "<group>"; };
 		AAD832042A42AF5700A08B48 /* ViperProjectSwiftUI1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperProjectSwiftUI1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD832072A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperProjectSwiftUI1App.swift; sourceTree = "<group>"; };
 		AAD832092A42AF5700A08B48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,9 +107,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA1B1B412A4BBB5F00C35834 /* AuthorList */ = {
+			isa = PBXGroup;
+			children = (
+				AA1B1B422A4BBCDE00C35834 /* AuthorsView.swift */,
+			);
+			path = AuthorList;
+			sourceTree = "<group>";
+		};
+		AA67E5BA2A4A404E000BAF1D /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				AA67E5BD2A4A4138000BAF1D /* BookMapper.swift */,
+				AA67E5BF2A4A4873000BAF1D /* AuthorMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
 		AAA036EC2A439488001284D2 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				AA1B1B412A4BBB5F00C35834 /* AuthorList */,
 				AAA036ED2A4394C9001284D2 /* BookList */,
 			);
 			path = Feature;
@@ -115,10 +149,22 @@
 		AAA036EE2A43A3D0001284D2 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				AA67E5BA2A4A404E000BAF1D /* Mapper */,
 				AAA036EF2A43A40D001284D2 /* BookRepository.swift */,
+				AA1B1B3D2A4BB8FC00C35834 /* AuthorRepository.swift */,
 				AA214B722A44DED20013B8F3 /* SampleBookRepository.swift */,
+				AA67E5C12A4A99C3000BAF1D /* StorageBookRepository.swift */,
+				AA1B1B3F2A4BB9A100C35834 /* StorageAuthorRespository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		AABEEABA2A49BBFB00447343 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				AA67E5B82A4A28CB000BAF1D /* LocalStorageManager.swift */,
+			);
+			path = LocalStorage;
 			sourceTree = "<group>";
 		};
 		AAD831FB2A42AF5700A08B48 = {
@@ -150,7 +196,9 @@
 				AAD832072A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift */,
 				AAD832092A42AF5700A08B48 /* ContentView.swift */,
 				AAD8320B2A42AF5800A08B48 /* Assets.xcassets */,
+				AABEEABA2A49BBFB00447343 /* LocalStorage */,
 				AAD8320D2A42AF5800A08B48 /* Preview Content */,
+				AABEEABE2A49BD0500447343 /* ViperProjectSwiftUI1Model.xcdatamodeld */,
 			);
 			path = ViperProjectSwiftUI1;
 			sourceTree = "<group>";
@@ -320,17 +368,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD832382A42B97900A08B48 /* BooksInteractor.swift in Sources */,
+				AA1B1B432A4BBCDE00C35834 /* AuthorsView.swift in Sources */,
 				AAD8320A2A42AF5700A08B48 /* ContentView.swift in Sources */,
+				AA67E5BE2A4A4138000BAF1D /* BookMapper.swift in Sources */,
 				AAA036F02A43A40D001284D2 /* BookRepository.swift in Sources */,
 				AAA036F42A43E7E4001284D2 /* BooksRouter.swift in Sources */,
 				AAD832082A42AF5700A08B48 /* ViperProjectSwiftUI1App.swift in Sources */,
+				AA1B1B402A4BB9A100C35834 /* StorageAuthorRespository.swift in Sources */,
 				AAA036F62A43F745001284D2 /* BookViewModel.swift in Sources */,
+				AA67E5C22A4A99C3000BAF1D /* StorageBookRepository.swift in Sources */,
 				AA214B732A44DED20013B8F3 /* SampleBookRepository.swift in Sources */,
 				AAA036F22A43E5B0001284D2 /* BookDetailView.swift in Sources */,
+				AA67E5C02A4A4873000BAF1D /* AuthorMapper.swift in Sources */,
 				AAD832402A42C04B00A08B48 /* BooksView.swift in Sources */,
 				AAD832352A42B5D700A08B48 /* Author.swift in Sources */,
 				AAD832332A42B51600A08B48 /* Book.swift in Sources */,
 				AAD8323B2A42BC8F00A08B48 /* BooksPresenter.swift in Sources */,
+				AA67E5B92A4A28CB000BAF1D /* LocalStorageManager.swift in Sources */,
+				AA1B1B3E2A4BB8FC00C35834 /* AuthorRepository.swift in Sources */,
+				AABEEAC02A49BD0500447343 /* ViperProjectSwiftUI1Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,6 +705,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AABEEABE2A49BD0500447343 /* ViperProjectSwiftUI1Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AABEEABF2A49BD0500447343 /* ViperProjectSwiftUI1Model.xcdatamodel */,
+			);
+			currentVersion = AABEEABF2A49BD0500447343 /* ViperProjectSwiftUI1Model.xcdatamodel */;
+			path = ViperProjectSwiftUI1Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AAD831FC2A42AF5700A08B48 /* Project object */;
 }
