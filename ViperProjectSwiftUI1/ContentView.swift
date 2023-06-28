@@ -16,10 +16,11 @@ struct ContentView: View {
                 Image(systemName: "swift")
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
-                Text("VIPER Architecture Pattern")
-                Text("(Sample)")
+                Text("VIPER Architecture Pattern").bold()
+                Text("(Sample with CoreData)").font(.caption)
                 NavigationLink("Books", destination: router.listView())
                     .padding()
+                NavigationLink("Authors", destination: AuthorsView())
             }
         }
     }
