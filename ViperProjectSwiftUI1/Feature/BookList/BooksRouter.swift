@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BooksRouter {
     func listView() -> some View {
-        let interactor = BooksInterector(repository: SampleBookRepository())
+        let interactor = BooksInterector(repository: StorageBookRepository())
         let presenter = BooksPresenter(interactor: interactor)
         return BooksView(presenter: presenter)
     }
